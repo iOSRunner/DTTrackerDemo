@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import <DTTracker/DTTrackManager.h>
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    DTTrackManager *tracker = [[DTTrackManager alloc] init];
+    [tracker trackEvent:@"viewDidLoad"];
+    
 }
 
 

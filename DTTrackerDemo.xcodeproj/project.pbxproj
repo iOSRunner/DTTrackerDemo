@@ -13,7 +13,25 @@
 		F747C2CF1ECC7ACA0091B946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F747C2CD1ECC7ACA0091B946 /* Main.storyboard */; };
 		F747C2D11ECC7ACA0091B946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F747C2D01ECC7ACA0091B946 /* Assets.xcassets */; };
 		F747C2D41ECC7ACA0091B946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F747C2D21ECC7ACA0091B946 /* LaunchScreen.storyboard */; };
+		F747C3001ECC7D640091B946 /* DTTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F747C2FD1ECC7BA50091B946 /* DTTracker.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F747C2FC1ECC7BA50091B946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F747C2F71ECC7BA40091B946 /* DTTracker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F7C4FD161ECC748900C3EBCC;
+			remoteInfo = DTTracker;
+		};
+		F747C2FE1ECC7BEA0091B946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F747C2F71ECC7BA40091B946 /* DTTracker.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C4FD151ECC748900C3EBCC;
+			remoteInfo = DTTracker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F747C2C11ECC7ACA0091B946 /* DTTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +44,7 @@
 		F747C2D01ECC7ACA0091B946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F747C2D31ECC7ACA0091B946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F747C2D51ECC7ACA0091B946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F747C2F71ECC7BA40091B946 /* DTTracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DTTracker.xcodeproj; path = ../../DTTracker/DTTracker.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F747C3001ECC7D640091B946 /* DTTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +87,7 @@
 				F747C2D21ECC7ACA0091B946 /* LaunchScreen.storyboard */,
 				F747C2D51ECC7ACA0091B946 /* Info.plist */,
 				F747C2C41ECC7ACA0091B946 /* Supporting Files */,
+				F747C2F71ECC7BA40091B946 /* DTTracker.xcodeproj */,
 			);
 			path = DTTrackerDemo;
 			sourceTree = "<group>";
@@ -77,6 +98,14 @@
 				F747C2C51ECC7ACA0091B946 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F747C2F81ECC7BA40091B946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F747C2FD1ECC7BA50091B946 /* DTTracker.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +122,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F747C2FF1ECC7BEA0091B946 /* PBXTargetDependency */,
 			);
 			name = DTTrackerDemo;
 			productName = DTTrackerDemo;
@@ -126,12 +156,28 @@
 			mainGroup = F747C2B81ECC7ACA0091B946;
 			productRefGroup = F747C2C21ECC7ACA0091B946 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F747C2F81ECC7BA40091B946 /* Products */;
+					ProjectRef = F747C2F71ECC7BA40091B946 /* DTTracker.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F747C2C01ECC7ACA0091B946 /* DTTrackerDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F747C2FD1ECC7BA50091B946 /* DTTracker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DTTracker.framework;
+			remoteRef = F747C2FC1ECC7BA50091B946 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F747C2BF1ECC7ACA0091B946 /* Resources */ = {
@@ -158,6 +204,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F747C2FF1ECC7BEA0091B946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTTracker;
+			targetProxy = F747C2FE1ECC7BEA0091B946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F747C2CD1ECC7ACA0091B946 /* Main.storyboard */ = {
@@ -312,6 +366,7 @@
 				F747C2DA1ECC7ACA0091B946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DA792B396FC36379EA74DC2B1F8EFD2FFC0ABCCA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA792B396FC36379EA74DC2B1F8EFD2FFC0ABCCA" : 9223372036854775807,
+    "E945CD2F4CC94A06D8B834E2704C38066250B902" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "626D2A3B-04C1-4D82-9A18-C955AA678617",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA792B396FC36379EA74DC2B1F8EFD2FFC0ABCCA" : "DTTrackerDemo\/",
+    "E945CD2F4CC94A06D8B834E2704C38066250B902" : "DTTracker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DTTrackerDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DTTrackerDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iOSRunner\/DTTrackerDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA792B396FC36379EA74DC2B1F8EFD2FFC0ABCCA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iOSRunner\/DTTracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E945CD2F4CC94A06D8B834E2704C38066250B902"
+    }
+  ]
+}
